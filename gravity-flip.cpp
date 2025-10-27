@@ -1,0 +1,52 @@
+// PROBLEM LINK HERE
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+int main()
+{
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    for (int i = 0; i < n; i++)
+    {
+        cin >> a[i];
+    }
+    sort(a.begin(), a.end());
+    for (int i = 0; i < n; i++)
+    {
+        if (i != 0)
+            cout << " ";
+
+        cout << a[i];
+    }
+
+    return 0;
+}
+
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin >> n;
+
+    int a[100] for (int i = 0; i < n; i++)
+    {
+        cin >> a[i];
+    }
+
+    sort(a, a + n);
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << a[i];
+        if (i != n - 1)
+            cout << " ";
+
+        return 0;
+    }
